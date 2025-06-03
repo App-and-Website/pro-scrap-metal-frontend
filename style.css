@@ -1,4 +1,7 @@
 
+.switch-box{
+display: none;
+}
 
 .topbar{
     background: #0c833c;
@@ -147,6 +150,10 @@
     display: flex;
     flex-direction: column-reverse;
 }
+.logo_custom img {
+    transform: scale(1.5);
+    transform-origin: left;
+}
 }
 
 @media screen and (max-width:768px) {
@@ -178,6 +185,9 @@
     .header-left ul{
         display: flex;
         justify-content: space-between;
+    }
+    .bottom_contact{
+        margin-top: 40px;
     }
 }
 
