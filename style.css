@@ -135,7 +135,21 @@ display: none;
 .why-choose-section .why-choose-text {
     background: #e6eee9;
 }
-
+.facilities-section .facilities-text ul li i {
+    color: #ffffff;
+    background: #0c833c;
+}
+.page-title::before {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), to(rgba(60, 12, 112, 0.9)));
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+.blog_page_form form{
+  padding: 25px;
+}
+.service_list {
+    display: flex;
+    gap: 50px;
+}
 @media screen and (max-width: 992px) {
 .why-choose-section .why-choose-img .shipping-text {
     max-width: 100%;
