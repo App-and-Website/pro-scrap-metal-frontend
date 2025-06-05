@@ -150,6 +150,109 @@ display: none;
     display: flex;
     gap: 50px;
 }
+
+
+.thank_youmain {
+      background: #0e0e2c;
+      font-family: 'Segoe UI', sans-serif;
+      overflow: hidden;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding-bottom: 50px;
+    }
+
+        .thank_youmain .thank-you-container {
+      z-index: 10;
+      text-align: center;
+    }
+
+        .thank_youmain h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+        .thank_youmain p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+
+        .thank_youmain .icons {
+      margin-top: 1.5rem;
+    }
+
+        .thank_youmain .icons i {
+      font-size: 2rem;
+      margin: 0 10px;
+      color: #ff4081;
+      animation: float 4s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0%   { transform: translateY(0px); }
+      50%  { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+
+    /* Animated SVG Background */
+        .thank_youmain .animated-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      overflow: hidden;
+    }
+
+        .thank_youmain .circle {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.2;
+      animation: move 20s infinite linear;
+    }
+
+        .thank_youmain .circle1 {
+      width: 200px;
+      height: 200px;
+      background: #ff4081;
+      top: 10%;
+      left: 5%;
+    }
+
+        .thank_youmain .circle2 {
+      width: 300px;
+      height: 300px;
+      background: #00e5ff;
+      top: 70%;
+      left: 80%;
+    }
+
+        .thank_youmain .circle3 {
+      width: 150px;
+      height: 150px;
+      background: #7c4dff;
+      top: 40%;
+      left: 50%;
+    }
+
+    @keyframes move {
+      0%   { transform: translateY(0) rotate(0deg); }
+      100% { transform: translateY(-100px) rotate(360deg); }
+    }
+
+    @media screen and (max-width: 600px) {
+          .thank_youmain h1 {
+        font-size: 2rem;
+      }
+          .thank_youmain .icons i {
+        font-size: 1.5rem;
+      }
+    }
+
+
 @media screen and (max-width: 992px) {
 .why-choose-section .why-choose-img .shipping-text {
     max-width: 100%;
