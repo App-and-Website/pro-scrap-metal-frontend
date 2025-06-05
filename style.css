@@ -258,7 +258,7 @@ display: none;
 
 
 
-    .scrap-price-table-container {
+.scrap-price-table-container {
   padding: 20px;
   background-color: #fff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -363,6 +363,19 @@ display: none;
   font-size: 15px;
   color: #555;
   line-height: 1.6;
+}
+
+
+.scrap_types img{
+  height: 260px;
+  width: 100%;
+  object-fit: cover;
+}
+.scrap_types h3{
+    text-align: center;
+    background: #222;
+    padding: 10px;
+    color: #fff;
 }
 
 @media screen and (min-width: 1024px) {
